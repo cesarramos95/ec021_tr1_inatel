@@ -1,0 +1,23 @@
+{
+  "name": "ec021_tr1_inatel",
+  "version": "1.0.0",
+  "description": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/cesarramos95/ec021_tr1_inatel)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarramos95/ec021_tr1_inatel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarramos95/ec021_tr1_inatel/issues"
+  },
+  "homepage": "https://github.com/cesarramos95/ec021_tr1_inatel#readme",
+  "dependencies": {
+    "restify": "^8.5.1"
+  }
+}
