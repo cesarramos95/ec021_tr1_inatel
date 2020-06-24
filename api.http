@@ -1,0 +1,52 @@
+###
+GET http://localhost:3000/ec021/carro
+
+###
+GET http://localhost:3000/ec021/carro?id=4
+
+### 
+GET http://localhost:3000/ec021/carro?marca=Fiat
+
+### 
+GET http://localhost:3000/ec021/carro?marca=Fiat&modelo=Toro
+
+### 
+GET http://localhost:3000/ec021/carro?anoInicial=2019
+
+### 
+GET http://localhost:3000/ec021/carro?valorInicial=25000
+
+
+###
+POST http://localhost:3000/ec021/carro
+Content-Type: application/json
+
+{
+  "marca": "Volkswagen",
+  "modelo": "Gol",
+  "ano": 2004,
+  "valor": 666666
+}
+
+###
+PUT http://localhost:3000/ec021/carro/7
+Content-Type: application/json
+
+{
+  "marca": "Volkswagen",
+  "modelo": "Gol",
+  "ano": 2004,
+  "valor": 30540
+}
+
+###
+PUT http://localhost:3000/ec021/carro/7
+Content-Type: application/json
+
+{
+  "valor": 480098
+}
+
+
+###
+DELETE http://localhost:3000/ec021/carro/7
